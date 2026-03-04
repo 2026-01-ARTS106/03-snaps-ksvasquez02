@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.5
+  m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
   m_UseRadianceAmbientProbe: 0
@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  m_BakeOnSceneLoad: 1
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -21152,7 +21152,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 8900000, guid: 16b8d6811357a7b4897a7b64eac8f6ea, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -28417,7 +28417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -83372,12 +83372,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3099176169325524340, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3099176169325524340, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3100830655538551622, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 126
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125089734360806002, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3125089734360806002, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545356274384964738, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545356274384964738, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
@@ -83386,23 +83402,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3559377783906166198, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 126
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562156536864197508, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562156536864197508, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5660007513759174622, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_Name
       value: Floor Tile 8x8 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5910747700736864753, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910747700736864753, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5912400528287211459, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 126
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934549654018193143, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5934549654018193143, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_LightProbeUsage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7292577857166319927, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292577857166319927, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7295358259660295941, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 126
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307231324015453745, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7307231324015453745, guid: 56e26e58f41bcfa48a400a764628e214, type: 3}
       propertyPath: m_LightProbeUsage
